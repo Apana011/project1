@@ -10,9 +10,11 @@ class ServiceController extends Controller
 {
     public function index(){
         $datas=Service::all();
-       return view ('main',['datas'=>$datas]);
+       return view ('main',['datas'=> $datas]);
     }
 
     
 }
+
+
 

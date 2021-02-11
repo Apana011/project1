@@ -4,7 +4,7 @@
     <th>LastChecked</th>
     <th>Status</th>
     </tr>
-    
+
          @foreach ($datas as $data)
          <tr>
              <td> {{$data->service}}</td>
